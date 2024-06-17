@@ -44,7 +44,8 @@ fun main()
             println("계산기 종료하겠습니다.")
             break
         }
-        val operation = when(input) {
+        val operation = when(input)
+        {
             1 -> AddOperation()
             2 -> SubtractOperation()
             3 -> MultiplyOperation()
